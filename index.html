@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aikyn - Personal Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 50px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        .info {
-            margin: 20px 0;
-            font-size: 20px;
-        }
-
-        .spotify-link {
-            margin-top: 30px;
-        }
-
-        .spotify-link img {
-            width: 50px;
-            height: 50px;
-        }
-    </style>
+    <link rel = "stylesheet" href = "src/style.css">
+    <title>YoungVampLife</title>
 </head>
 <body>
-    <h1>Hello! My name is Aikyn</h1>
-
-    <div class="photo">
-        <img src="2024-09-07_00-29-49.png" alt="Photo">
-    </div>
-
-    <div class="info">
-        <p>Name: Aikyn</p>
-        <p>Age: 18</p>
-        <p>Birthplace: Petropavl</p>
-        <p>I am passionate about music, studying at Kozybayev University in my second year, and learning English since my first year. English is very hard for me, but I try to learn it. I love cats, usually I feed the cats on the street, I even called them by their names.</p>
-    </div>
-
-    <div class="spotify-link">
-        <p>My Spotify page:</p>
-        <a href="https://open.spotify.com/artist/6M7tZTg2MGpXU4mtVWo4CU" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" alt="Spotify">
-        </a>
-    </div>
+        <video class = "background-video" autoplay muted loop id="background-video">
+            <source src="./src/full/opium.mp4" type="video/mp4">
+        </video>
+    <nav class = "navbar open">
+            <iframe src="https://lottie.host/embed/a333a957-ff1a-4b28-9fd5-a9081ab2ea3e/TbaRpEdlbT.json" frameBorder = "0" height="70"></iframe>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="video.html">VIDEO</a></li>
+            <li><a href="audio.html">MUSIC</a></li>
+            <li><a href="book.html">BOOK</a></li>
+            <li class = "work"><a href = "#">WORK</a>
+                <ul>
+                    <li><a href="form.html">FORM</a></li>
+                    <li><a href="math.html">MATH</a></li>
+                    <li><a href="api.html">API</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div><a href="https://www.heavensgate.com/">ENTRY</a>
+            <div class = 'burger' id="burger2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="person">
+            <p class="center-text">Name: Aikyn</p>
+            <p class="center-text">SurName: Malgazhdar</p>
+            <p class="center-text">Age: ~18</p>
+            <p class="center-text">Place of birth: Osh</p>
+            <p class="center-text">Point: </p>
+        </div> 
+        <img src = "src/full/ava.png" width="600" height="400" alt = "Photo">
+        <div class="interests">
+            <p class="center-text">Interests: music, games, basketball</p>
+            <p class="center-text">Hobbies: making music and play the games</p>
+            <p class="center-text">Live views: without life boundaries</p>
+            <p class="center-text">Credos: I AM MUSIC</p>
+            <p class="center-text">Live style: Wake, Go, Sleep.</p>
+        </div>
+        <section>
+            <h2 class="center-text">ESSAY</h2>
+            <p>
+            YVL!
+            </p>
+            <p>
+            Actually i dont know what i shoould to write there
+            </p>
+            <p>
+            I am interests to music. I make music and listen it. I am melomanian and it is so I instrest for music cause I like diversity. As a child, I was very interested in science. I even wanted to become a scientist. That's why I started studying physics at the age of 10.
+            </p>
+            <p>
+                In general, I am not a constant person. I do not like doing the same thing for a long time, it gets very boring. I like to try everything, but in the end I do not finish the job, and this is my minus.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/hoverol" target="_blank"><img src="src/full/instagram-white-icon.png" height="50" width="50" alt ='instagram'></a>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
